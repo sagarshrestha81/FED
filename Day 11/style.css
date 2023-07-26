@@ -7,7 +7,6 @@
     /* grid-template-columns: repeat(auto-fit,minmax(200px,1fr)); */
     grid-template-rows: repeat(4, 100px);
     gap: 10px;
-    
 }
 
 .item {
