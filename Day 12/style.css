@@ -50,5 +50,16 @@
   padding: 5px 10px 15px 20px;
   border: 10px solid #000000;
   margin: 5px 10px 15px 20px;
+  animation-name: animation;
+    animation-duration: 5s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;    
+    animation-play-state: running;
+    background-color: #f00;
+}
 
+
+@keyframes animation {
+    0%     {background-color:red;}
+    50.0%  {background-color:#ff9999;}
 }
